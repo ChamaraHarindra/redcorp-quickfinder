@@ -1,0 +1,34 @@
+{
+  "name": "redcorp-quick-finder",
+  "version": "1.0.0",
+  "description": "UI Test - Chamara Harindra",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chamara-harindra",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-menu": "^1.0.1",
+    "grunt-sass": "^1.1.0",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.5"
+  },
+  "keywords": [
+    "quickfinders",
+    "redcorp",
+    "ui",
+    "ux"
+  ]
+}

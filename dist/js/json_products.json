@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "name": "APPLE - MACBOOK PRO 2.7GHZ DUAL-CORE INTEL CORE I5/ 8GB 128GB 13-IN TFT FR/NL/EN AZ",
+      "image": "../../src/images/prod-img/1.jpg",
+	  "pnb": "MF839FN/A",
+	  "ref": "0320Q995",
+      "features": [
+        {
+          "processor": "Intel Core i5",
+          "hdd": "128GB",
+          "weight": "1.58kg",
+          "ram": "8GB",
+          "screen-size": "13&quot;",
+        }
+      ],
+		"stocks": [
+        {
+          "stock-img": "../../src/images/rocket.svg",
+          "stock-tooltip": "Available at RedCorp's office for immediate dispatch",
+          "stock-text": "Immediate dispatch",
+        }
+      ],
+		"prices": [
+        {
+          "price": "€ 1185.<small>95</small>",
+          "vat-1": "€ 0.4",
+          "vat-2": "€ 0.12",
+        }
+      ]
+    },
+    {
+      "name": "2APPLE - MACBOOK PRO 2.7GHZ DUAL-CORE INTEL CORE I5/ 8GB 128GB 13-IN TFT FR/NL/EN AZ",
+      "image": "../../src/images/prod-img/1.jpg",
+	  "pnb": "MF839FN/A",
+	  "ref": "0320Q995",
+      "features": [
+        {
+          "processor": "Intel Core i5",
+          "hdd": "128GB",
+          "weight": "1.58kg",
+          "ram": "8GB",
+          "screen-size": "13&quot;",
+        }
+      ],
+		"stock": [
+        {
+          "stock-img": "../../src/images/rocket.svg",
+          "stock-tooltip": "Available at RedCorp's office for immediate dispatch",
+          "stock-text": "Immediate dispatch",
+        }
+      ],
+		"price": [
+        {
+          "price": "€ 1185.<small>95</small>",
+          "vat-1": "€ 0.4",
+          "vat-2": "€ 0.12",
+        }
+      ]
+    },
+	  {
+      "name": "3APPLE - MACBOOK PRO 2.7GHZ DUAL-CORE INTEL CORE I5/ 8GB 128GB 13-IN TFT FR/NL/EN AZ",
+      "image": "../../src/images/prod-img/1.jpg",
+	  "pnb": "MF839FN/A",
+	  "ref": "0320Q995",
+      "features": [
+        {
+          "processor": "Intel Core i5",
+          "hdd": "128GB",
+          "weight": "1.58kg",
+          "ram": "8GB",
+          "screen-size": "13&quot;",
+        }
+      ],
+		"stock": [
+        {
+          "stock-img": "../../src/images/rocket.svg",
+          "stock-tooltip": "Available at RedCorp's office for immediate dispatch",
+          "stock-text": "Immediate dispatch",
+        }
+      ],
+		"price": [
+        {
+          "price": "€ 1185.<small>95</small>",
+          "vat-1": "€ 0.4",
+          "vat-2": "€ 0.12",
+        }
+      ]
+    },
+  ]
+}

@@ -1,0 +1,174 @@
+html, body {
+  background: #f7f7f7;
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+.container {
+  background: white; }
+
+h4.black-heading {
+  padding: 0 0 15px;
+  line-height: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  border-bottom: 1px solid #e7e7e7;
+  margin: 0; }
+  h4.black-heading .sub-text {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 100%;
+    font-weight: normal; }
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.card {
+  background: #ffffff;
+  border-radius: 3px;
+  position: relative;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+  padding: 10px 0;
+  transition: 0.3s all ease-in-out; }
+  .card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
+
+.list-view {
+  margin-bottom: 15px; }
+  .list-view .list-view__prod-img {
+    text-align: center;
+    display: table; }
+    .list-view .list-view__prod-img a {
+      display: table-cell;
+      vertical-align: middle; }
+    .list-view .list-view__prod-img img {
+      max-width: 100%;
+      max-height: 130px; }
+  .list-view .list-view__prod-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .list-view .list-view__prod-name a {
+      color: #aa1f00;
+      text-decoration: none; }
+  .list-view .list-view__ref-no {
+    color: #a0a0a0;
+    margin: 5px 0; }
+  .list-view .list-view__stock {
+    margin-bottom: 5px; }
+    .list-view .list-view__stock img {
+      display: inline-block;
+      max-width: 100%;
+      margin-right: 5px; }
+    .list-view .list-view__stock span {
+      display: inline-block;
+      font-weight: bold;
+      color: #ffa400; }
+  .list-view .list-view__price {
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: 400; }
+    .list-view .list-view__price small {
+      font-size: 60%; }
+  .list-view .list-view__tax {
+    margin-bottom: 5px; }
+    .list-view .list-view__tax span {
+      font-size: 10px;
+      font-weight: bold;
+      color: #a0a0a0;
+      display: block; }
+
+.cart-add .qnty {
+  max-width: 70px;
+  margin-right: 10px;
+  float: left; }
+
+ul.side-by-side {
+  margin: auto 0;
+  padding: 0;
+  list-style-type: none; }
+  ul.side-by-side li {
+    float: left;
+    width: 50%; }
+    ul.side-by-side li strong {
+      min-width: 70px; }
+
+.btn-orange {
+  background: #ff6a00;
+  color: #ffffff; }
+  .btn-orange:hover, .btn-orange:focus {
+    background: #cc5500;
+    color: #ffffff;
+    transition: 0.3s all ease-in-out; }
+
+.filters {
+  overflow: hidden;
+  width: 100%; }
+
+.filter-block {
+  padding: 15px 0;
+  border-bottom: 1px solid #e7e7e7;
+  overflow: hidden;
+  font-size: 12px;
+  color: #444444; }
+  .filter-block ul, .filter-block li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  .filter-block .filter-block__heading {
+    font-weight: bold;
+    line-height: 100%; }
+  .filter-block .filter-block__read-more {
+    font-weight: normal; }
+  .filter-block .filter-block__list {
+    margin-top: 15px; }
+    .filter-block .filter-block__list li {
+      margin-bottom: 7px; }
+    .filter-block .filter-block__list li span {
+      color: #989ea2; }
+    .filter-block .filter-block__list label {
+      font-weight: normal;
+      line-height: 100%; }
+    .filter-block .filter-block__list input[type=checkbox] {
+      margin: 0 10px 0 0; }
+  .filter-block .counter {
+    color: #a0a0a0;
+    display: inline-block;
+    margin-left: 5px; }
+
+.toolbar {
+  background: #f7f7f7;
+  border-radius: 3px;
+  padding: 7px 10px;
+  margin: 15px 0; }
+  .toolbar .in-stock-check label {
+    margin: 0;
+    font-weight: normal;
+    padding-top: 7px; }
+  .toolbar .in-stock-check label img, .toolbar .in-stock-check input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle; }
+  .toolbar .in-stock-check input[type="checkbox"] {
+    margin: 0 10px 0 0; }
+  .toolbar .in-stock-check label img {
+    margin: 0 3px 0 0; }
+  .toolbar .sorting {
+    width: 100%; }
+    .toolbar .sorting select {
+      display: inline-block;
+      width: 48%; }
+
+.form-control {
+  font-size: 12px; }
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #cccccc; }
+
+/*# sourceMappingURL=main.css.map */

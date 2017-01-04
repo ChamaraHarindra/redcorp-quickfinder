@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Redcorp Quick Finders</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Minified main css file -->
+<link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body ng-app="list">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12"><h1 class="text-center">Redcorp Quick Finders Redesign</h1></div>
+	</div><br/><br/>
+	<!-- Code starts from here -->
+	<div class="row">
+		<div class="col-md-3 hidden-xs hidden-sm">
+			<section class="filters">
+				<h4 class="black-heading">Refine Search</h4>
+				<div class="filter-block">
+					<div class="filter-block__heading">Manufacturers</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>HP INC<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Lenovo<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Dell<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Accer<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Samsung<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Apple<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Toshiba<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Screen Size</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>&gt;= 17"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>15" - 15.9"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>14" - 14.9"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>13" - 13.9"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>12" - 12.9"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>11" - 11.9"<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>&lt;= 11"<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Processoe</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>Core i5<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core i7<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core i3<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>AMD A-series<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core m5<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Celeron<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Xeon Quad-Core<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core m7<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core M<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Atom x5<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core m3<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Pentium<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Pentium N<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Tegra K1<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>AMD E-series<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Atom<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Celeron N<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Core 2 Duo<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Categories</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>Business Notebook<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Consumer Notebook<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Consumer PC<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Mac Notebook<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Notebook/Tablet PC/e-Book<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Ultrabook<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Workstation<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Memory</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>&gt;= 16GB<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>8GB - 15GB<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>4GB - 7GB<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>&lt; 4GB<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Storage Type</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>SSD<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>HDD<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Both SSD &amp; HDD<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Operating System</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>Windows 10 Pro<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 7 Professional<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 10 Home<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 8.1 Pro<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 7 Professional 64bit<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 8 Pro<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>OS X El Capitan<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Google Chrome<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>macOS Sierra<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Mac OS X 10.10 Yosemite<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 8.1<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 7 Professional 64bit<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Mac OS X<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows Embedded Standard 7<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Android 4.2<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Chrome OS<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Mac OS X Lion<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 7 Enterprise<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 7 Professional 64bit<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>Windows 8<span class="counter">(451)</span></label></li>
+					</ul>
+				</div>
+				<div class="filter-block">
+					<div class="filter-block__heading">Price</div>
+					<ul class="filter-block__list">
+						<li><label><input type="checkbox"/>11 - 20 €<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>101 - 200 €<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>201 - 300 €<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>301 - 400 €<span class="counter">(451)</span></label></li>
+						<li><label><input type="checkbox"/>401 - 500 €<span class="counter">(451)</span></label></li>
+
+					</ul>
+				</div>
+			</section>
+		</div>
+		<div class="col-md-9 col-xs-12">
+			<h4 class="black-heading">Notebooks Laptops and Ultrabooks<span class="sub-text">(<strong>Results</strong> 1 - 20 of <strong>841</strong>)</span></h4>
+			<div class="toolbar">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<span class="input-group-btn">
+								<button class="btn btn-orange" type="button"><i class="glyphicon glyphicon-search"></i></button>
+							</span>
+						</div>
+					</div>
+					<div class="in-stock-check col-md-4">
+						<label>
+							<input type="checkbox"/>
+							<img src="src/images/box.svg" alt="Stock Only"/>
+							<strong>In stock only</strong> <span>(341)</span>
+						</label>
+					</div>
+					<div class="col-md-4 hidden-xs hidden-sm">
+						<div class="sorting pull-right">
+							<select class="form-control">
+								<option value="" selected>Most Relevent</option>
+								<option value="">Price: low to high</option>
+								<option value="">Price: high to low</option>
+								<option value="">Product name: a to z</option>
+								<option value="">Product name: z to a</option>
+								<option value="">Manufacturers</option>
+							</select>
+							<select class="form-control">
+								<option value="">10 per page</option>
+								<option value="" selected>20 per page</option>
+								<option value="">40 per page</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Card 1 -->
+					<div class="card list-view" ng-controller="ListCtrl">
+						<div class="col-md-2 col-xs-3 col-sm-2">
+							<div class="list-view__prod-img" ng-repeat="product in products">
+								<a href="#"><img src="{{product.image}}" alt=""/></a>
+							</div>
+						</div>
+						<div class="col-md-7 col-xs-9 col-sm-7">
+							<div class="list-view__prod-name" ng-repeat="product in products">
+								<a href="#">
+									{{product.name}}
+								</a>
+							</div>
+							<div class="list-view__ref-no">
+								<span ng-repeat="product in products"><strong>PNB</strong>: {{product.pnb}}</span> | 
+								<span ng-repeat="product in products"><strong>REF</strong>: {{product.ref}}</span>
+							</div>
+							<ul class="side-by-side hidden-sm hidden-xs" ng-repeat="feature in products">
+								<li><strong>Processor</strong> : {{product.processor}}</li>
+								<li><strong>RAM</strong> : {{product.ram}}</li>
+								<li><strong>HDD</strong> : {{product.hdd}}</li>
+								<li><strong>Screen Size</strong> : {{product.screen-size}}</li>
+								<li><strong>Weight</strong> : {{product.weight}}</li>
+							</ul>
+							<div class="pull-left hidden-sm hidden-md- hidden-lg" ng-repeat="price in products">
+								<div class="list-view__price">
+									{{product.price}}
+								</div>
+								<div class="list-view__tax">
+									<span>Incl. recupel {{product.vat1}}</span>
+									<span>Incl. Bebat € {{product.vat2}}</span>
+								</div>
+							</div>
+							<div class="pull-right hidden-sm hidden-md- hidden-lg">
+								<div class="cart-add">
+									<input type="number" class="qnty form-control"/>
+									<button class="button btn btn-orange pull-left"><i class="glyphicon glyphicon-shopping-cart"></i></button> 
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3  hidden-xs" ng-repeat="stock in products">
+							<div class="list-view__stock" data-toggle="tooltip" data-placement="left" title="{{product.stock-tooltip}}">
+								<img src="{{product.stock-image}}" alt="Rocket"/>
+								<span>{{product.stock-text}}</span>
+							</div>
+							<div class="list-view__price">
+								€ 1185.<small>95</small>
+							</div>
+							<div class="list-view__tax">
+								<span>Incl. recupel € 0.4</span>
+								<span>Incl. Bebat € 0.12</span>
+							</div>
+							<div class="cart-add">
+								<input type="number" class="qnty form-control"/>
+								<button class="button btn btn-orange pull-left"><i class="glyphicon glyphicon-shopping-cart"></i></button> 
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Minified JS -->
+<script src="dist/js/concat.min.js" type="text/javascript"></script>
+
+</body>
+</html>

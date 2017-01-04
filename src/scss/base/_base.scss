@@ -1,0 +1,302 @@
+html,body {
+	background: #f7f7f7;
+	font-family: $font;
+	font-size: $font-size;
+}
+
+.container {
+	background: white;
+}
+
+/////////////////////// Typography  //////////////////////
+
+h4.black-heading {
+	padding: 0 0 15px;
+	line-height: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	color: $black;
+	border-bottom: 1px solid $border-color;
+	margin: 0;
+	
+	.sub-text {
+		margin-left: 10px;
+		font-size: $font-size;
+		color: $light-gray;
+		line-height: 100%;
+		font-weight: normal;
+	}
+}
+
+.truncate {
+	display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card {
+	background: $white;
+  	border-radius: 3px;
+  	position: relative;
+  	width: 100%;
+	border: 1px solid $border-color;
+	overflow: hidden;
+	padding: 10px 0;
+	transition: 0.3s all ease-in-out;
+	
+	&:hover {
+		box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);	
+	}
+  	
+}
+
+.list-view {
+	margin-bottom: 15px;
+	
+	.list-view__prod-img {
+		text-align: center;
+		display: table;
+		
+		a {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		img {
+			max-width: 100%;
+			max-height: 130px;
+		}
+	}
+	
+	.list-view__prod-name {
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		
+		a {
+			color: $brown;
+			text-decoration: none;
+		}
+	}
+	
+	.list-view__ref-no {
+		color: $light-gray;
+		margin: 5px 0;
+	}
+	
+	.list-view__stock {
+		margin-bottom: 5px;
+		
+		img {
+			display: inline-block;
+			max-width: 100%;
+			margin-right: 5px;
+		}
+		
+		span {
+			display: inline-block;
+			font-weight: bold;
+			color: $stock-orange;
+		}
+	}
+	
+	.list-view__price {
+		font-size: 25px;
+		line-height: 100%;
+		font-weight: 400;
+		
+		small {
+			font-size: 60%;
+		}
+	}
+	
+	.list-view__tax {
+		margin-bottom: 5px;
+		
+		span {
+			font-size: 10px;
+			font-weight: bold;
+			color: $light-gray;
+			display: block;
+		}
+	}
+}
+
+.cart-add {
+	.qnty {
+		max-width: 70px;
+		margin-right: 10px;
+		float: left;
+	}
+}
+
+ul.side-by-side {
+	margin: auto 0;
+	padding: 0;
+	list-style-type: none;
+		
+	li {
+		float: left;
+		width: 50%;
+		
+		strong {
+			min-width: 70px;
+			//display: inline-block;
+		}
+	}
+}
+
+.btn-orange {
+	background: $orange;
+	color: $white;
+	
+	&:hover, &:focus {
+		background: darken($orange,10%);
+		color: $white;
+		transition: 0.3s all ease-in-out;
+	}
+}
+
+
+
+
+///////////////// Filter Sections //////////////
+
+.filters {
+	overflow: hidden;
+	width: 100%;
+}
+
+
+.filter-block {
+	padding: 15px 0;
+	border-bottom: 1px solid $border-color;
+	overflow: hidden;
+	font-size: $font-size;
+	color: $font-color;
+	
+	ul, li {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.filter-block__heading {
+		font-weight: bold;
+		line-height: 100%;
+	}
+	
+	.filter-block__read-more {
+		font-weight: normal;
+	}
+	
+	.filter-block__list {
+		margin-top: 15px;
+		
+		li {
+			margin-bottom: 7px;
+		}
+		
+		li span {
+			color: lighten($gray,10%);
+		}
+		
+		label {
+			font-weight: normal;
+			line-height: 100%;
+		}
+		
+		input[type=checkbox] {
+			margin: 0 10px 0 0;
+		}
+		
+	}
+	
+	.counter {
+		color: $light-gray;
+		display: inline-block;
+		margin-left: 5px;
+	}
+
+	
+}
+
+/////////////// Toolbar ////////////////
+
+.toolbar {
+	background: $toolbar-color;
+	border-radius: 3px;
+	padding: 7px 10px;
+	margin: 15px 0;
+	
+	.in-stock-check {
+		
+		label {
+			margin: 0;
+			font-weight: normal;
+			padding-top: 7px;
+		}
+		
+		label img, input[type="checkbox"] {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		input[type="checkbox"] {
+			margin: 0 10px 0 0;	
+		}
+		
+		label img {
+			margin: 0 3px 0 0;
+		}
+	}
+	
+	.sorting {
+		width: 100%;
+		
+		select {
+			display: inline-block;
+			width: 48%;
+		}
+	}
+}
+
+.form-control {
+	font-size: 12px;
+	
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		border-color: #cccccc;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
